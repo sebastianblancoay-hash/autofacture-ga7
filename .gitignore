@@ -1,0 +1,27 @@
+# Archivos de entorno y claves
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Dependencias y cachés de herramientas
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Salidas generadas y temporales de edición
+coverage/
+dist/
+build/
+*.log
+*.tmp
+*.swp
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
