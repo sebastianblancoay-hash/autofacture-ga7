@@ -27,7 +27,7 @@ Inicialmente hay tres facturas por COP 2.023.000. FE-DEMO-104 queda como INC-DEM
 Corte y reloj ficticios: 9 de noviembre de 2026 a las 5:00 p. m., Colombia. El reloj no es la hora real de la operación. Los eventos usan esa fecha de ejemplo y se ordenan por consecutivo. Las facturas iniciales ya están vencidas en ese corte. No se inventa un umbral de demoras.
 
 ## Recorrido sugerido
-Entrar como AUXR. En bandeja abrir FE-DEMO-101. Registrar «Validada ficticia» con motivo. Es un resultado de revisión interno y no aprobación DIAN ni validación tributaria. Asignar a Lina Demo con motivo. Cambiar identidad a Lina Demo y pasar su factura de Asignada a En trámite con observación. Volver a AUXR, corregir un dato con motivo y consultar versiones en historial. La corrección conserva la anterior y exige nueva revisión. Los cambios se ven en bandeja y reportes. Un trámite Cerrado no se modifica ni acredita pago/contabilización.
+Entrar como AUXR. En bandeja abrir FE-DEMO-101. Registrar el resultado "Validada ficticia" con motivo. Es un resultado de revisión interno y no aprobación DIAN ni validación tributaria. Asignar a Lina Demo con motivo. Cambiar identidad a Lina Demo y pasar su factura de Asignada a En trámite con observación. Volver a AUXR, corregir un dato con motivo y consultar versiones en historial. La corrección conserva la anterior y exige nueva revisión. Los cambios se ven en bandeja y reportes. Un trámite Cerrado no se modifica ni acredita pago/contabilización.
 
 Entrar como AUXR autorizado para crear/editar reglas. La prioridad numérica menor gana; empate exige selección manual de responsable en asignación. Las reglas inactivas no proponen responsables y las ediciones no reasignan facturas existentes. Se puede simular que falta REV-DEMO-01: las nuevas revisiones solicitadas como válidas quedan Pendiente. No se aplican tasas tributarias reales.
 
@@ -45,7 +45,7 @@ Los archivos inválidos, las filas con errores y los duplicados quedan en recepc
 ## Reporte y restablecimiento
 Aplicar los filtros antes de descargar. El CSV contiene exactamente las filas y versiones del reporte aplicado, sin incidencia 104. Los totales se separan por moneda. Las celdas se entrecomillan y se antepone apóstrofo a posibles fórmulas, incluidos signos =, +, -, @ y prefijos de control. Excel/PDF no están implementados.
 
-«Restablecer datos iniciales» solicita confirmación y vuelve a las tres facturas, incidencia y reglas de inicio. Afecta la demostración en ese origen. «Salir» limpia la identidad, sin borrar el conjunto. Si otra pestaña modifica datos, se solicita recargar y se evita guardar sobre una revisión anterior.
+La opción "Restablecer datos iniciales" solicita confirmación y vuelve a las tres facturas, incidencia y reglas de inicio. Afecta la demostración en ese origen. La opción "Salir" limpia la identidad y conserva el conjunto de datos. Si otra pestaña modifica datos, se solicita recargar y se evita guardar sobre una revisión anterior.
 
 ## Archivos y comprobaciones
 Las quince páginas P01–P15 están en la raíz. plantilla.html es su estructura común. componentes.html conserva la guía de piezas; su pequeño formulario no guarda información. styles.css es la única hoja activa. prototipo/ conserva los quince mockups y mapa editable. docs/ contiene fichas, fundamentos, componentes y verificaciones.

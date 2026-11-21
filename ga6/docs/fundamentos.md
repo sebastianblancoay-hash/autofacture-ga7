@@ -22,7 +22,7 @@ El menú principal comienza con esta etiqueta real del mismo archivo:
 <nav class="menu" aria-label="Navegación principal">
 ```
 
-nav identifica un grupo de enlaces de navegación, por ejemplo Bandeja, Reportes e Historial. aria-label le da un nombre al grupo para tecnologías de asistencia. El menú móvil usa otro grupo llamado «Navegación móvil».
+nav identifica un grupo de enlaces de navegación, por ejemplo Bandeja, Reportes e Historial. aria-label le da un nombre al grupo para tecnologías de asistencia. El menú móvil usa otro grupo llamado "Navegación móvil".
 
 El contenido principal comienza así en index.html:
 
@@ -30,7 +30,7 @@ El contenido principal comienza así en index.html:
 <main id="contenido" tabindex="-1">
 ```
 
-main contiene la tarea de la pantalla, no el menú ni el pie. Su id permite llegar con el enlace «Saltar al contenido». tabindex="-1" permite enfocar esa región sin añadirla como una parada normal más al recorrer con Tab. Dentro de main, la aplicación agrega los formularios y tablas en el contenedor vista.
+main contiene la tarea de la pantalla, no el menú ni el pie. Su id permite llegar con el enlace "Saltar al contenido". tabindex="-1" permite enfocar esa región sin añadirla como una parada normal más al recorrer con Tab. Dentro de main, la aplicación agrega los formularios y tablas en el contenedor vista.
 
 ## HTML: label y aria-describedby
 En componentes.html se encuentra esta etiqueta:
@@ -47,7 +47,7 @@ El control asociado aparece exactamente así:
 <input id="condicion" type="text" required maxlength="80" aria-describedby="ayuda-condicion error-condicion">
 ```
 
-aria-describedby relaciona el campo con los textos que explican cómo llenarlo y qué error tiene. No reemplaza a label: agrega información. En AutoFacture, una condición puede ser «Proveedor Alfa»; si falta, el mensaje explica qué corregir junto al campo. La aplicación funcional crea estas asociaciones con sus propias funciones campo y formulario.
+aria-describedby relaciona el campo con los textos que explican cómo llenarlo y qué error tiene. No reemplaza a label: agrega información. En AutoFacture, una condición puede ser "Proveedor Alfa". Si falta, el mensaje explica qué corregir junto al campo. La aplicación funcional crea estas asociaciones con sus propias funciones campo y formulario.
 
 ## CSS: variables de color
 Este es el inicio exacto del bloque :root de styles.css, no el bloque completo:
@@ -157,12 +157,12 @@ Si la factura ya estaba En trámite con revisión vigente, una nueva revisión v
 ## Datos, decisiones y límites de la entrega
 La documentación mantiene las decisiones aprobadas para AutoFacture. El ejemplo inicial tiene tres facturas por COP 2.023.000 y la incidencia FE-DEMO-104 aparte por COP 357.000, sin NIT inventado. Los cambios funcionales se comparten entre páginas del mismo origen HTTP/HTTPS. El acceso por identidad es de demostración, no autenticación real. No hay conexión con DIAN, FACTURE o SAP ni aprobación tributaria.
 
-Los fragmentos se contrastaron con los archivos del proyecto. El aprendiz conserva estas decisiones para la entrega; el codificador las implementa con HTML, CSS y JavaScript puro. Las comprobaciones descritas no equivalen a una inspección visual manual.
+Los fragmentos se contrastaron con los archivos del proyecto. La demostración aplica estas decisiones con HTML, CSS y JavaScript puro. La comprobación se basó en la lectura del código.
 
 ## Referencias técnicas reales en español
-- MDN Web Docs. «label». https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/label
-- MDN Web Docs. «Uso de propiedades personalizadas (variables) en CSS». https://developer.mozilla.org/es/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
-- MDN Web Docs. «Crear enlaces». https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links
-- MDN Web Docs. «details». https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/details
+- MDN Web Docs. `label`. https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/label
+- MDN Web Docs. "Uso de propiedades personalizadas (variables) en CSS". https://developer.mozilla.org/es/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
+- MDN Web Docs. "Crear enlaces". https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links
+- MDN Web Docs. `details`. https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/details
 
 Los fragmentos anteriores proceden del proyecto. Estas fuentes sirven como apoyo técnico y no sustituyen la evidencia de los archivos construidos.

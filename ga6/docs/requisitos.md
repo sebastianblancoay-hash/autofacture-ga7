@@ -6,7 +6,7 @@ Revisión final: **10 de noviembre de 2026 · Colombia (America/Bogota)**.
 Elaboración inicial: **9 de noviembre de 2026 · Colombia (America/Bogota)**.
 
 ## Fuente y alcance
-RF01 a RF25 conservan los códigos y temas del contexto adjunto. La descripción «El sistema debe…» desarrolla esos temas, porque el adjunto no aporta el documento histórico completo. Las prioridades históricas y las relaciones RF24/RF25 se conservan como decisiones del proyecto aprobadas por el aprendiz. Los códigos no se reemplazan ni se renumeran. La guía, sección 4, exige código, descripción, HU y prioridad.
+RF01 a RF25 conservan los códigos y temas del contexto adjunto. La fórmula "El sistema debe" desarrolla esos temas a partir del contexto adjunto. Las prioridades históricas y las relaciones RF24/RF25 se conservan como decisiones del proyecto aprobadas por el aprendiz. Los códigos no se reemplazan ni se renumeran. La guía, sección 4, exige código, descripción, HU y prioridad.
 
 La columna de alcance distingue lo que se representa localmente y lo que seguirá fuera de implementación. Conservar un RF no significa haberlo programado, probado o cumplido. RF01 y RF24 se relacionan con HU-001, sin implementar integraciones. RF25 es preparación futura de arquitectura, sin HU de origen atribuida. Una integración pendiente conserva su prioridad histórica; su condición se registra en alcance.
 
@@ -17,7 +17,7 @@ AUXR recibe, revisa, asigna y consulta alertas. Solo AUXR autorizado configura R
 
 Se conservan las prioridades originales: RF07, RF09, RF16, RF21, RF22 y RF25 son Media; los demás RF históricos son Alta. RF24 se relaciona con HU-001. RF25 se mantiene como preparación futura de arquitectura, sin atribuirlo a HU-006.
 
-El aprendiz define y dirige estas decisiones; el codificador implementa las instrucciones en la demostración. La aprobación del alcance no sustituye las comprobaciones técnicas ni implementa integraciones.
+Estas decisiones definen el alcance de la demostración. Las comprobaciones técnicas y las integraciones se documentan por separado.
 
 ## Tabla de requisitos funcionales
 
@@ -68,7 +68,7 @@ No se reconstruyen RNF no incluidos en la fuente.
 ## Reglas y decisiones de la implementación
 El contexto indica conservar intentos sin identidad, revisar después de registrar, exigir revisión vigente para avanzar, guardar versiones y eventos, usar motivo y responsable en asignación manual y resolver empates manualmente. Son reglas tomadas de la fuente.
 
-El proyecto usa identificación del emisor y número de factura como identidad mínima y clave local de duplicado. Los roles vigentes están aprobados: solo AUXR autorizado configura reglas y CODA consulta. La demostración implementa el paso de Asignada a En trámite y luego a Cerrada para RESP. Las demoras quedan sin evaluar porque no hay un umbral definido. El aprendiz aprueba estas decisiones y el codificador las implementa. Los temas históricos se conservan sin atribuirles detalles no incluidos en la fuente.
+El proyecto usa identificación del emisor y número de factura como identidad mínima y clave local de duplicado. Los roles vigentes están aprobados: solo AUXR autorizado configura reglas y CODA consulta. La demostración implementa el paso de Asignada a En trámite y luego a Cerrada para RESP. Las demoras quedan sin evaluar porque no hay un umbral definido. La demostración aplica estas decisiones de alcance. Los temas históricos se conservan sin atribuirles detalles no incluidos en la fuente.
 
 AUXR recibe, revisa, asigna y consulta alertas (HU-005); AUXR autorizado configura reglas (RF13/HU-007). RESP gestiona sus facturas; CODA supervisa y consulta, sin administrar reglas. DEV es técnico y no hereda permisos. No sumar monedas diferentes ni inferir fechas o tasas. Los nombres de campos futuros deben contrastarse con el modelo de datos cuando esté disponible: el contexto solo menciona su existencia, no incluye su esquema completo. No modificar ni conectar Supabase.
 

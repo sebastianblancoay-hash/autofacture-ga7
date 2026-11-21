@@ -28,8 +28,8 @@ Abrir prototipo/index.html, elegir el recorrido AUXR y entrar a la bandeja. Abri
 La vista de reglas distingue AUXR autorizado de CODA: el primero ve el acceso al formulario; CODA consulta el listado sin botones de administración. Se trata de una representación de navegación, no de autenticación o permisos de servidor.
 
 ## Fuentes consultadas
-- Figma, “Guía para el prototipado en Figma”: https://help.figma.com/hc/es-419/articles/360040314193 . Describe flujos, puntos de inicio y conexiones.
-- MDN, “Crear enlaces”: https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links . Explica enlaces relativos entre archivos y enlaces a secciones.
+- Figma, "Guía para el prototipado en Figma": https://help.figma.com/hc/es-419/articles/360040314193 . Describe flujos, puntos de inicio y conexiones.
+- MDN, "Crear enlaces": https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links . Explica enlaces relativos entre archivos y enlaces a secciones.
 
 Fecha de esta entrega: 9 de noviembre de 2026, hora de Colombia. La elección de HTML es una decisión de esta entrega basada en la maqueta y el alcance, no una afirmación de que una herramienta sea siempre mejor.
 
@@ -37,4 +37,4 @@ Fecha de esta entrega: 9 de noviembre de 2026, hora de Colombia. La elección de
 Las quince interfaces funcionales están en la raíz y usan azul, verde y blanco. Comparten datos, versiones, reglas y reportes de demostración mediante almacenamiento del mismo origen. El recorrido estático descrito arriba corresponde únicamente a los mockups conservados en prototipo/. Ver LEEME.md para abrir el recorrido funcional por HTTP/HTTPS.
 
 ## Escenarios separados
-Los quince bocetos conservan el escenario de octubre de 2026. Todos usan el pie «AutoFacture · Boceto de navegación · Datos ficticios». Las interfaces funcionales de la raíz tienen corte del 9 de noviembre de 2026 a las 5:00 p. m., Colombia. Esta diferencia es intencional: el boceto es un antecedente de navegación, no una copia actualizada de los datos funcionales. No se cambian fechas, importes ni resultados de los ejemplos.
+Los quince bocetos conservan el escenario de octubre de 2026. El pie de cada boceto identifica AutoFacture, el carácter de boceto y el uso de datos ficticios. Las interfaces funcionales de la raíz tienen corte del 9 de noviembre de 2026 a las 5:00 p. m., Colombia. Esta diferencia es intencional: el boceto es un antecedente de navegación, no una copia actualizada de los datos funcionales. No se cambian fechas, importes ni resultados de los ejemplos.

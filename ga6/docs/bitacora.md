@@ -1,79 +1,55 @@
-# Bitácora de decisiones y trabajo con el codificador
+# Bitácora de decisiones de AutoFacture
 
 Sebastián Alejandro Blanco Ytriago. ADSO, ficha 3336064.
 
-Revisión por etapas: 10 de noviembre de 2026, Colombia.
+Revisión por etapas del 10 de noviembre de 2026, Colombia.
 
-Las instrucciones registran las decisiones del proyecto y los resultados del codificador. Los métodos de comprobación se indican por separado.
+Las entradas registran las decisiones de GA6, el método de comprobación y el resultado de cada revisión.
 
 ## Entrada 1 Historias y requisitos
 
-Instrucción utilizada:
+Se mantuvieron RF01 a RF25 y las seis historias iniciales. El conjunto se completó con HU-007 y HU-008. AUXR recibe, revisa, asigna y consulta alertas. Solo AUXR autorizado configura RF13. RESP gestiona sus facturas y CODA consulta.
 
-Apruebo estas decisiones para AutoFacture: conservar RF01 a RF25 y las seis historias anteriores; completar ocho historias; AUXR recibe, revisa, asigna y consulta alertas; solo AUXR autorizado configura RF13; RESP gestiona sus facturas y CODA consulta. Conserva las prioridades originales, RF24 con HU-001 y RF25 como preparación futura. Actualiza AGENTS.md, historias y requisitos para expresar esas decisiones del proyecto con claridad. Usa lenguaje sencillo y no cambies la lógica ni los datos. Resume el resultado en cuatro líneas.
+Los requisitos y las ocho historias registran los roles, las prioridades y las relaciones acordadas. RF24 sigue vinculado a HU-001 y RF25 queda como preparación futura.
 
-Decisión o problema: Conservar los roles, códigos, prioridades y relaciones de los antecedentes.
+Captura en el paquete de evidencias: revision_01.jpg
 
-Resultado: Se actualizaron AGENTS.md, ocho historias y requisitos con las decisiones aprobadas. RF24 mantiene HU-001 y RF25 continúa como preparación futura.
+## Entrada 2 Herramienta, mapa y prototipos
 
-Capturas en el paquete de evidencias: revision_01.jpg
+Se eligió el prototipo HTML porque permite recorrer AutoFacture y continuar la maqueta de GA5. Se conservó la comparación con Figma, el mapa editable y los quince bocetos enlazados. Sus pies identifican el proyecto y los datos ficticios.
 
-## Entrada 2 Herramienta mapa y prototipos
+La documentación distingue el escenario de los bocetos en octubre del corte del 9 de noviembre de la versión funcional.
 
-Instrucción utilizada:
+Captura en el paquete de evidencias: revision_02.jpg
 
-Elijo el prototipo HTML porque permite recorrer AutoFacture y continuar la maqueta anterior. Conserva la comparación con Figma, el mapa editable y los quince bocetos enlazados. En todos los bocetos usa el pie: AutoFacture · Boceto de navegación · Datos ficticios. Conserva su escenario de octubre y aclara que la versión funcional tiene corte del 9 de noviembre. Actualiza herramientas, navegación y descripción de pantallas, sin agregar funciones ni cambiar los datos. Resume los cambios en cuatro líneas.
+## Entrada 3 Componentes, plantilla y estilos
 
-Decisión o problema: Elegir una herramienta y distinguir el escenario de los bocetos del corte funcional.
+La demostración usa una sola hoja de estilos, una plantilla y un catálogo de componentes. Los colores del proyecto son azul, verde y blanco. Los filtros se distribuyen en una columna en celular y en dos o tres cuando el ancho lo permite.
 
-Resultado: Se registró la elección de HTML, se conservó la comparación con Figma, el mapa editable y quince bocetos; sus pies identifican AutoFacture y los datos ficticios.
+La tabla de componentes se ajustó a las quince pantallas. Se revisaron cabecera, menú, formularios, errores junto al campo, foco, estados, tarjetas, tablas e historial.
 
-Capturas en el paquete de evidencias: revision_02.jpg
-
-## Entrada 3 Componentes plantilla y estilos
-
-Instrucción utilizada:
-
-Mantengo una sola hoja styles.css con variables, plantilla.html y componentes.html. Revisa que la tabla de componentes coincida con las quince pantallas: cabecera, menú, formularios, errores junto al campo, foco visible, estados, tarjetas, tablas e historial. Conservo azul, verde y blanco. Los filtros deben usar una columna en celular y dos o tres cuando haya espacio. Ajusta la documentación si falta algo y conserva la implementación actual. Resume el resultado en cuatro líneas.
-
-Decisión o problema: La tabla debía describir el uso real de las piezas reutilizables en las quince pantallas.
-
-Resultado: Se corrigió la tabla y se conservaron styles.css único, variables, plantilla y componentes. Los filtros se documentan con una, dos o tres columnas según el ancho.
-
-Capturas en el paquete de evidencias: revision_03.jpg
+Captura en el paquete de evidencias: revision_03.jpg
 
 ## Entrada 4 Comprobación funcional
 
-Instrucción utilizada:
+Una revisión válida repetida de la misma versión conserva el estado En trámite. Una corrección con versión nueva, una revisión pendiente o una revisión rechazada impiden el avance. Se comprobaron también la importación, las versiones, las reglas por prioridad y el CSV filtrado.
 
-Apruebo la corrección que conserva En trámite cuando se repite una revisión válida de la misma versión. Comprueba que una versión nueva, una revisión pendiente o una rechazada siguen bloqueando el avance. Mantén las tres facturas por COP 2.023.000 y la incidencia 104 aparte por COP 357.000. Ejecuta las pruebas estáticas, de lógica y de DOM simulado; revisa también importación, versiones, reglas por prioridad y CSV filtrado. Informa los resultados exactos, distinguiéndolos de una prueba visual. No cambies datos ni agregues funciones.
+Pasaron 105 comprobaciones de lógica, 31 combinaciones de pantalla e identidad y la comprobación estática de 33 HTML y 718 referencias locales. Se mantuvieron tres facturas por COP 2.023.000 y la incidencia 104 por COP 357.000 se registró por separado.
 
-Decisión o problema: Una revisión válida repetida debe conservar En trámite y mantener los bloqueos cuando cambian datos o resultado.
-
-Resultado: Pasaron 105 comprobaciones de lógica, 31 combinaciones de pantalla e identidad, 33 HTML y 718 referencias locales. Se conservaron tres facturas por COP 2.023.000 y la incidencia 104 aparte.
-
-Capturas en el paquete de evidencias: revision_04_instruccion.jpg, revision_04.jpg
+Capturas en el paquete de evidencias: revision_04_instruccion.jpg y revision_04.jpg
 
 ## Entrada 5 Fundamentos del frontend
 
-Instrucción utilizada:
+La guía explica el uso de los elementos HTML, las variables de color, Grid, las consultas de medios, los eventos, el DOM, la validación y el foco. Una corrección conserva la versión anterior y exige una revisión nueva.
 
-Quiero explicaciones sencillas de fragmentos reales del proyecto. En fundamentos.md explica para qué sirven header, nav, main, label y aria-describedby; las variables de color, Grid y las media queries; y los eventos, el DOM, la validación y el foco en JavaScript. Incluye cómo una corrección conserva la versión anterior y exige una revisión nueva. Usa fragmentos exactos de los archivos actuales y ejemplos de AutoFacture. Conservo estas decisiones para la entrega. No cambies código ni datos. Resume el resultado en cuatro líneas.
+Se documentaron dieciséis fragmentos exactos de HTML, CSS y JavaScript del proyecto para explicar esas decisiones.
 
-Decisión o problema: Explicar fragmentos reales y relacionarlos con las decisiones de AutoFacture.
-
-Resultado: Se actualizaron los fundamentos con dieciséis fragmentos exactos de HTML, CSS y JavaScript, incluidas validación, foco y conservación de versiones.
-
-Capturas en el paquete de evidencias: revision_05.jpg
+Captura en el paquete de evidencias: revision_05.jpg
 
 ## Entrada 6 Accesibilidad y cierre
 
-Instrucción utilizada:
+Se revisaron las etiquetas, las ayudas y errores de cada campo, el foco visible, la navegación por teclado, el menú móvil y los filtros de una columna en ancho pequeño.
 
-Para cerrar la revisión de accesibilidad, comprueba etiquetas asociadas, ayudas y errores junto a los campos, foco visible, navegación por teclado, menú móvil y filtros de una columna en ancho pequeño. Conserva las quince pantallas y las decisiones funcionales que aprobé. Revisa el código y las comprobaciones disponibles, indicando el método utilizado y sus límites. Mantén intactos código y datos. Resume el resultado en cuatro líneas.
+El análisis estático y las pruebas con DOM simulado verificaron etiquetas, ayudas, errores, solicitud de foco y reglas de diseño adaptable. La comprobación visual en navegador se describe en su registro. Se conservaron las quince pantallas, el código y los datos.
 
-Decisión o problema: Comprobar etiquetas, ayudas, errores, foco, menú móvil y distribución adaptable con el método indicado.
-
-Resultado: Se verificaron por análisis estático y DOM simulado las etiquetas, ayudas, errores, solicitud de foco y reglas de diseño adaptable. Se conservaron quince pantallas, código y datos. La apariencia y la interacción reales se distinguen de estas comprobaciones.
-
-Capturas en el paquete de evidencias: revision_06.jpg
+Captura en el paquete de evidencias: revision_06.jpg

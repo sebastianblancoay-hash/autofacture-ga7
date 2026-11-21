@@ -31,4 +31,4 @@ Recepción: P01 → P02 → P08 → P09 → P06 → P09. Revisión/asignación: 
 Los archivos de prototipo/ se conservan como antecedente estático. El recorrido funcional ahora se abre en /index.html del mismo origen HTTP/HTTPS. Usa los mismos nombres P01–P15, con id de factura/incidencia/regla en la consulta de la dirección cuando corresponde. Los formularios y cambios reales de demostración están solo en las páginas de la raíz. Ver LEEME.md.
 
 ## Identificación de los bocetos
-P01 a P15 comparten el pie «AutoFacture · Boceto de navegación · Datos ficticios». La nota visible de cada boceto distingue octubre del corte funcional de noviembre. Se conservan enlaces, regresos, códigos, mapa y fuentes editables sin funciones nuevas.
+El pie de P01 a P15 identifica AutoFacture, el tipo de boceto y el uso de datos ficticios. La nota visible de cada boceto distingue octubre del corte funcional de noviembre. Se conservan enlaces, regresos, códigos, mapa y fuentes editables sin funciones nuevas.

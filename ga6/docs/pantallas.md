@@ -8,7 +8,7 @@ Elaboración inicial: **9 de noviembre de 2026 · Colombia (America/Bogota)**.
 Las páginas están en la raíz. Comparten plantilla, styles.css, js/modelo.js y js/aplicacion.js. prototipo/ conserva los mockups de la etapa anterior, sin convertirlos en las páginas funcionales. La fecha de corte de las interfaces finales es 9 de noviembre de 2026 a las 5:00 p. m., Colombia.
 
 ## Bocetos de navegación conservados
-El aprendiz elige el prototipo HTML para recorrer AutoFacture y continuar la maqueta anterior. P01 a P15 tienen su boceto enlazado en prototipo/, con los mismos nombres de archivo de la tabla. Se conserva la comparación con Figma y el mapa editable. Los quince bocetos mantienen el escenario de octubre de 2026 y el pie «AutoFacture · Boceto de navegación · Datos ficticios». Una nota en cada uno aclara que la versión funcional tiene corte del 9 de noviembre de 2026 a las 5:00 p. m., Colombia. No se modifican sus datos ni se añaden funciones.
+Se eligió el prototipo HTML para recorrer AutoFacture y continuar la maqueta anterior. P01 a P15 tienen su boceto enlazado en prototipo/, con los mismos nombres de archivo de la tabla. Se conserva la comparación con Figma y el mapa editable. Los quince bocetos mantienen el escenario de octubre de 2026. El pie identifica AutoFacture y el uso de datos ficticios. Una nota en cada uno aclara que la versión funcional tiene corte del 9 de noviembre de 2026 a las 5:00 p. m., Colombia. No se modifican sus datos ni se añaden funciones.
 
 ## Interfaces funcionales de la raíz
 

@@ -58,10 +58,10 @@ El foco tiene un contorno visible; en la cabecera oscura se muestra blanco. Los 
 Los errores aparecen junto al campo, están asociados por aria-describedby y el ejemplo lleva el foco al primer campo incorrecto. El mensaje compartido de las interfaces usa role="status"; el ejemplo aislado del catálogo también lo usa. Estas son decisiones implementadas; no equivalen a una certificación de accesibilidad ni a una prueba con lector de pantalla.
 
 ## Referencias reales en español
-- MDN Web Docs. «Uso de propiedades personalizadas (variables) en CSS». https://developer.mozilla.org/es/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
-- MDN Web Docs. «label». https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/label
-- MDN Web Docs. «details». https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/details
-- MDN Web Docs. «Crear enlaces». https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links
+- MDN Web Docs. "Uso de propiedades personalizadas (variables) en CSS". https://developer.mozilla.org/es/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
+- MDN Web Docs. `label`. https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/label
+- MDN Web Docs. `details`. https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/details
+- MDN Web Docs. "Crear enlaces". https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links
 
 Son fuentes técnicas verificadas en español para el informe. Las fechas distinguen elaboración inicial, revisión documental y escenario de los datos.
 
@@ -73,7 +73,7 @@ Las variantes de colores de estado y el ejemplo estático de error están dispon
 ## Ajustes de filtros y datos informados
 La clase formulario-filtros se usa en P02 y P05, sobre formulario. En celular dispone los cinco campos en una columna; desde 48.01rem usa dos y desde 64rem tres. El botón ocupa una fila completa. Los campos mantienen sus label, ayudas y errores asociados, sin cambiar el orden de teclado ni el foco al primer error. componentes.html incluye una muestra visual de esta distribución.
 
-La tabla de datos de P03/P12 presenta «Número de factura», «NIT informado» y «Total informado», además de las fechas y demás campos. El total usa su moneda original mediante Intl.NumberFormat, sin calcular impuestos ni transformar lo almacenado. Los bloques pre ajustan líneas y permiten desplazamiento interno si hace falta; paneles, campos y tablas tienen un ancho limitado al contenedor. El contenido del JSON sigue insertándose como texto.
+La tabla de datos de P03/P12 presenta "Número de factura", "NIT informado" y "Total informado", además de las fechas y demás campos. El total usa su moneda original mediante Intl.NumberFormat, sin calcular impuestos ni transformar lo almacenado. Los bloques pre ajustan líneas y permiten desplazamiento interno si hace falta; paneles, campos y tablas tienen un ancho limitado al contenedor. El contenido del JSON sigue insertándose como texto.
 
 ## Configuración final
 Se mantiene una sola hoja activa styles.css con variables, la plantilla y el catálogo componentes.html. Se conservan azul, verde y blanco y la distribución actual de filtros. El catálogo describe los usos reales de cada componente en las quince interfaces. Las comprobaciones automáticas corresponden a análisis estático, lógica y DOM simulado. Los recorridos del navegador se registran por separado en verificacion-navegador.md y en las capturas del informe.

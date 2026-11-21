@@ -2,7 +2,7 @@
 
 Revisión final: **10 de noviembre de 2026 · Colombia (America/Bogota)**.
 
-El aprendiz aprueba las decisiones del proyecto y dirige las instrucciones; el codificador las implementa. Los resultados siguientes describen comprobaciones ejecutadas sobre los archivos, sin atribuir actuaciones manuales.
+Los resultados documentan las comprobaciones ejecutadas sobre los archivos del proyecto. Cada resultado se presenta con su método de verificación.
 
 | Método | Resultado |
 |---|---|

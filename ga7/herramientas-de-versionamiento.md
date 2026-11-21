@@ -1,6 +1,6 @@
 # Herramientas de versionamiento y alojamiento
 
-Git registra la historia del proyecto en el equipo. GitHub aloja el repositorio remoto y ofrece revisión, seguimiento de tareas y publicación. Los comparé por separado porque resuelven necesidades distintas.
+Git registra la historia del proyecto en el equipo. GitHub aloja el repositorio remoto y ofrece revisión, seguimiento de tareas y publicación. El control de versiones y el alojamiento se comparan por separado porque cumplen funciones distintas.
 
 ## Control de versiones
 
@@ -18,7 +18,7 @@ Git registra la historia del proyecto en el equipo. GitHub aloja el repositorio 
 | GitLab | Merge requests con discusión y diferencias. | Repositorios Git, seguimiento de tareas y gestión de versiones. | Sería útil con un flujo centrado en GitLab. Para esta etapa exigiría trasladar la ubicación de revisión y crear nuevos enlaces sin aportar una necesidad del proyecto. |
 | Bitbucket Cloud | Pull requests que comparan ramas y reúnen comentarios. | Repositorio Git con ramas y etiquetas. | Resulta útil si el equipo trabaja en el entorno Atlassian. AutoFacture ya tiene el flujo y la publicación en GitHub. |
 
-Elegí Git y GitHub por tres razones técnicas. Primero, un clon conserva los commits y su autoría para trabajar y revisar localmente. Segundo, la rama de trabajo mantiene separados los cambios y muestra en el PR lo que se incorpora a `main`. Tercero, la etiqueta anotada une el commit evaluado con las notas de la release y la publicación estática se puede abrir desde el mismo proyecto.
+Se eligió Git porque el clon conserva los commits y su autoría y permite trabajar con ramas locales. GitHub reúne las diferencias y su revisión en el PR. Una etiqueta anotada identifica el commit evaluado y GitHub Pages publica la demostración desde el mismo proyecto.
 
 ## Conceptos aplicados a la práctica
 

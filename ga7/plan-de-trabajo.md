@@ -1,6 +1,6 @@
 # Plan de trabajo de AutoFacture
 
-**Sebastián Alejandro Blanco Ytriago** · Ficha 3336064 · Tecnólogo en Análisis y Desarrollo de Software · Servicio Nacional de Aprendizaje (SENA). Instructor: Mauricio Fernández. Fecha de elaboración: 21 de noviembre de 2026, Colombia.
+**Sebastián Alejandro Blanco Ytriago**, ficha 3336064. Tecnólogo en Análisis y Desarrollo de Software del Servicio Nacional de Aprendizaje (SENA). Instructor Mauricio Fernández. Elaborado el 21 de noviembre de 2026 en Colombia.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Organizar y verificar la continuidad de AutoFacture en un repositorio público i
 
 ## Alcance
 
-AutoFacture conserva las quince pantallas P01 a P15 y el recorrido de GA6. Usé como base el último commit de la entrega previa, que queda disponible en su repositorio original.
+AutoFacture conserva las quince pantallas P01 a P15 y el recorrido de GA6. El último commit de la entrega previa sirvió de base para GA7 y sigue disponible en el repositorio de GA6.
 
 - **Recepción y revisión.** AUXR registra facturas identificables, revisa sus datos, conserva incidencias y puede corregir una versión. La corrección invalida la revisión anterior. La versión vigente exige su propia revisión para avanzar.
 - **Asignación y trámite.** AUXR asigna facturas revisadas y documenta los motivos de asignación manual. AUXR autorizado configura las reglas. La menor prioridad numérica gana y los empates pasan a selección manual. RESP tramita sus facturas. CODA consulta y supervisa.
