@@ -12,10 +12,10 @@ Git registra la historia del proyecto en el equipo. GitHub aloja el repositorio 
 
 ## Alojamiento
 
-| Servicio | Revisión de cambios | Rastro de una entrega | Criterio para este proyecto |
+| Servicio | Revisión de cambios | Registro de la entrega | Criterio para este proyecto |
 | --- | --- | --- | --- |
 | GitHub | Pull requests con diferencias y conversación. | Issues, tags, Releases y publicación estática con Pages. | El proyecto ya tenía su historial y autoría en GitHub. La publicación y la revisión se pueden comprobar en el mismo repositorio. |
-| GitLab | Merge requests con discusión y diferencias. | Repositorios Git, seguimiento de tareas y gestión de versiones. | Sería útil con un flujo centrado en GitLab. Para esta etapa exigiría trasladar la ubicación de revisión y crear nuevos enlaces sin aportar una necesidad del proyecto. |
+| GitLab | Merge requests con discusión y diferencias. | Repositorios Git, seguimiento de tareas y gestión de versiones. | Ofrece un flujo centrado en GitLab. Usarlo en esta etapa habría exigido trasladar la revisión y actualizar los enlaces. |
 | Bitbucket Cloud | Pull requests que comparan ramas y reúnen comentarios. | Repositorio Git con ramas y etiquetas. | Resulta útil si el equipo trabaja en el entorno Atlassian. AutoFacture ya tiene el flujo y la publicación en GitHub. |
 
 Se eligió Git porque el clon conserva los commits y su autoría y permite trabajar con ramas locales. GitHub reúne las diferencias y su revisión en el PR. Una etiqueta anotada identifica el commit evaluado y GitHub Pages publica la demostración desde el mismo proyecto.
